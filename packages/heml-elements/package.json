@@ -17,6 +17,9 @@
     "build/"
   ],
   "main": "build/index.js",
+  "scripts": {
+    "test": "jest ./test/*.spec.js"
+  },
   "publishConfig": {
     "access": "public"
   },
@@ -27,5 +30,10 @@
     "image-size": "^0.6.1",
     "is-absolute-url": "^2.1.0",
     "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "@heml/render": "^1.0.2-0",
+    "cheerio": "^1.0.0-rc.2",
+    "jest": "^21.2.1"
   }
 }

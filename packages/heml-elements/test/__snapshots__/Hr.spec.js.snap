@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with attrs 1`] = `
+"<div margin=\\"1px 2px 3px 4px\\" fluff=\\"floof\\" class=\\"hr\\">
+  START_CONDITIONmso | IEEND_CONDITION
+    <table class=\\"hr__table__ie\\" role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td>
+  END_COMMENT_CONDITIONAL
+  <table class=\\"hr__table\\" role=\\"presentation\\" border=\\"0\\" align=\\"center\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\" style=\\"table-layout: fixed;\\"><tr class=\\"hr__row\\"><td class=\\"hr__cell\\" width=\\"100%\\" align=\\"left\\" valign=\\"top\\">&nbsp;</td></tr></table>
+  START_CONDITIONmso | IEEND_CONDITION
+    </td></tr></table>
+  END_COMMENT_CONDITIONAL
+  <mock-style></mock-style></div>"
+`;
