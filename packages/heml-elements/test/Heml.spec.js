@@ -1,5 +1,5 @@
 const render = require('@heml/render')
-const HR = require('../build/Hr').default
+const Heml = require('../build/Heml').default
 const Style = require('../build/Style').default
 
 beforeAll(() => {
@@ -8,8 +8,8 @@ beforeAll(() => {
 
 test('renders with some attrs', () => {
   const attrs = {
-    margin: '1px 2px 3px 4px',
-    fluff: 'floof'
+    margin: '1px 2px 3px 4px'
   }
-  expect(render.renderElement(HR, attrs)).toMatchSnapshot();
+
+  return expect(render.renderElement(Heml, attrs, '<head></head><body></body>')).toMatchSnapshot()
 });

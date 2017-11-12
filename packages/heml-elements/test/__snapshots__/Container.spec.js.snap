@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with some attrs 1`] = `
+"<div margin=\\"1px 2px 3px 4px\\" class=\\"container\\">
+  START_CONDITIONmso | IEEND_CONDITION
+    <table class=\\"container__table__ie\\" role=\\"presentation\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\"><tr><td>
+  END_COMMENT_CONDITIONAL
+  <table class=\\"container__table\\" role=\\"presentation\\" border=\\"0\\" align=\\"center\\" cellpadding=\\"0\\" cellspacing=\\"0\\" width=\\"100%\\"><tr class=\\"container__row\\"><td class=\\"container__cell\\" width=\\"100%\\" align=\\"left\\" valign=\\"top\\">Lady Dynamite</td></tr></table>
+  START_CONDITIONmso | IEEND_CONDITION
+    </td></tr></table>
+  END_COMMENT_CONDITIONAL
+  </div>"
+`;

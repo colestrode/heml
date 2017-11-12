@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with some attrs 1`] = `"<body margin=\\"1px 2px 3px 4px\\" class=\\"body\\" style=\\"margin: 0; width: 100%;\\"><table class=\\"bodyTable\\" role=\\"presentation\\" width=\\"100%\\" align=\\"left\\" border=\\"0\\" cellpadding=\\"0\\" cellspacing=\\"0\\" style=\\"margin: 0;\\"><tr><td class=\\"body__content\\" align=\\"left\\" width=\\"100%\\" valign=\\"top\\">Lady Dynamite</td></tr></table><div style=\\"display:none; white-space:nowrap; font-size:15px; line-height:0;\\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div></body>"`;

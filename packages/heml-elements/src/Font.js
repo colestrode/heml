@@ -5,7 +5,7 @@ export default createElement('font', {
   children: false,
   defaultAttrs: { href: '' },
 
-  render (attrs, contents) {
+  render (attrs) {
     return ([
       `<!--[if !mso]><!-->`,
       <link href={attrs.href} rel='stylesheet' type='text/css' />,

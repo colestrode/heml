@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with content 1`] = `"<td class=\\"column col-sm-12\\" width=\\"100%\\" style=\\"width: 100%;\\" align=\\"left\\" valign=\\"top\\">Lady Dynamite</td>"`;
+
+exports[`renders with large attr 1`] = `"<td class=\\"column col-sm-12\\" width=\\"100%\\" style=\\"width: 100%;\\" align=\\"left\\" valign=\\"top\\">&nbsp;</td>"`;
+
+exports[`renders with large the same as small 1`] = `"<td class=\\"column col-sm-12\\" width=\\"100%\\" style=\\"width: 100%;\\" align=\\"left\\" valign=\\"top\\">&nbsp;</td>"`;
+
+exports[`renders with not attrs or content 1`] = `"<td class=\\"column col-sm-12\\" width=\\"100%\\" style=\\"width: 100%;\\" align=\\"left\\" valign=\\"top\\">&nbsp;</td>"`;
+
+exports[`renders with small attr 1`] = `"<td class=\\"column col-sm-6\\" width=\\"100%\\" style=\\"width: 100%;\\" align=\\"left\\" valign=\\"top\\">&nbsp;</td>"`;
