@@ -1,10 +1,5 @@
 const render = require('@heml/render')
 const Heml = require('../build/Heml').default
-const Style = require('../build/Style').default
-
-beforeAll(() => {
-  Style.preRender({ elements: [] });
-})
 
 test('renders with some attrs', () => {
   const attrs = {
